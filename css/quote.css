@@ -1,0 +1,73 @@
+@import "bootstrap-social.less";
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  background-color:#ccccff;
+}
+
+.test{
+  font-family: 'Raleway', sans-serif;
+  position:relative;
+  background-color:#0d0d0d;
+  width: 500px;
+  height: 250px;
+  padding:60px 20px;
+  text-align:center;
+  border-radius:10px;
+  font-size:16px;
+  font-weight: bold;
+  color:#ccccff;
+}
+
+#author{
+  position:absolute;
+  right:100px;
+  bottom:80px;
+  text-align:right;
+}
+
+button {
+  position:absolute;
+  right:40px;
+  bottom:30px;
+  background-color:#ccccff;
+  color:black;
+  width:150px;
+}
+
+.social ul {
+  position:absolute;
+  left:10px;
+  bottom:20px;
+}
+
+.social ul li {
+  display: inline;
+}
+
+.social i {
+  width: 40px;
+  height: 40px;
+  color: #ccccff;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-color: #ccccff;
+  border-style: solid;
+}
+
+

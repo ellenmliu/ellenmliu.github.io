@@ -1,0 +1,170 @@
+body{
+    background-color: #fcc;
+    font-family:'Josefin Sans', sans-serif;
+    text-align: center;
+    width:100%;
+    margin:0;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align:left;
+    width: 20%;
+    padding-left:10px;
+}
+
+h1 a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+h1 a:hover{
+    color:#f2f2f2;
+}
+
+.line{
+    display: inline-flex;
+    width: 100%;
+}
+
+.menu{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu ul{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    padding: 50px;
+    display: inline;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.menu ul li a:hover{
+    color:#f2f2f2;
+}
+
+.content{
+    width:100%;
+    padding:10px 0px;
+}
+
+#aboutme{
+    padding: 40px;
+    text-align: left;
+}
+
+#about,
+#contact{
+    background-color:#fff;
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+}
+
+#work{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+#work img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    margin:30px;
+    border: 2px solid transparent;
+}
+
+#work img:hover{
+    border: 2px solid #000;
+}
+
+form{
+    width: 600px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+label{
+    padding: 10px;
+}
+
+input,textarea{
+    width: 300px;
+    padding: 10px 0px 10px 10px;
+    border-radius:5px;
+    border: 3px solid #f2f2f2;
+    box-shadow: #000 1px 1px;
+}
+
+textarea{
+    height: 300px;
+}
+
+#submit{
+    background-color:#000;
+    color: #fff;
+    width:100px;
+    padding: 10px;
+    box-shadow: #535353 2px 2px;
+    border: 0px solid #f2f2f2;
+    margin-right:0px;
+}
+
+#submit:hover{
+    opacity: .6;
+}
+
+#submit:active{
+    box-shadow: #535353 0px 0px;
+}
+
+.social {
+    margin: 0 auto;
+    padding: 0px;
+    display:flex;
+    width: 50%;
+}
+
+.social ul{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.social ul li {
+    margin: 5px;
+    display: inline;
+}
+
+.social ul li a{
+    margin: 5px;
+}
+
+.social i {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.social i:hover {
+      color: #F8B195;
+      text-decoration: none;
+}

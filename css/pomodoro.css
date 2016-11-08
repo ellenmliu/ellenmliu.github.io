@@ -1,0 +1,93 @@
+body {
+  background-color:#AAA;
+}
+
+#pomodoro {
+  width: 500px;
+  height:400px;
+  background-color:#A00;
+  border-radius:45%;
+}
+
+#top {
+  background-color: #360;
+  width:300px;
+  height:100px;
+  top:-10px;
+  -webkit-clip-path: polygon(50% 0%, 60% 30%, 70% 15%, 65% 50%, 90% 60%, 60% 70%, 50% 95%, 45% 65%, 20% 90%, 40% 50%, 25% 20%, 45% 30% ,50% 0%);
+}
+
+#stem {
+  background-color: #241;
+  width:40px;
+  height:50px;
+  top:0px;
+  border-radius:30%;
+  box-shadow: 1px 5px 1px #114100;
+}
+
+#timer {
+  color:white;
+  font-size:50px;
+}
+
+p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
+
+.centerv {
+  position:absolute;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+
+.centerh {
+  position:absolute;
+  left:0;
+  right:0;
+  margin:auto;
+}
+
+#title {
+  top:10%;
+}
+
+.controls{
+  background-color:#333;
+  padding:30px;
+  width:60%;
+  text-align:center;
+  border-radius:20px;
+  position:absolute;
+  bottom:1%;
+}
+
+.half{
+  color:white;
+  font-size:20px;
+  text-align:center;
+  display: flex;
+  justify-content:space-around;
+}
+
+.type {
+  display:flex;
+}
+
+.type div {
+  margin:0px 10px;
+}
+
+.op {
+  border: 3px solid white;
+  padding:6px 15px;
+  border-radius:50%;
+  height:50px;
+  width:50px;
+}

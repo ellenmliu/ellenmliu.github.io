@@ -1,0 +1,66 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.jumbotron{
+     background-color:#fffaf5;
+}
+
+#title{
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    padding:0px;
+    margin: 0ps;
+}
+
+nav{
+    background-color:#fcc;
+}
+
+.nav-link:hover{
+    cursor:pointer;
+    color: #fcc;
+}
+
+#tangled{
+    animation: rotate 20s ease-in-out infinite;
+    height:100px;
+    width: 200px;
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+
+#work{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#work img{
+    width:200px;
+    height:200px;
+    margin:10px;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+}
+
+.social{
+    padding: 10px;
+}
+
+.social a{
+    text-decoration: none;
+    color: #666;
+}

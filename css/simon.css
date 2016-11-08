@@ -1,0 +1,128 @@
+body{
+  background-color:black;
+  height:100%;
+  width:100%;
+}
+
+.center{
+  position:absolute;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+#simonsays{
+  background-color:#333;
+  width:500px;
+  height:500px;
+  border-radius:50%;
+}
+
+#colors{
+  width:95%;
+  height:95%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.button{
+  width:50%;
+  height:50%;
+  border:10px solid #333;
+  opacity:.6;
+}
+
+#green{
+  background-color:#0f0;
+  border-radius: 100% 0px 0px 0px;
+}
+
+#red{
+  background-color:#f00;
+  border-radius: 0px 100% 0px 0px;
+}
+
+#yellow{
+  background-color:#ff0;
+  border-radius: 0px 0px 0px 100%;
+}
+
+#blue{
+  background-color:#00f;
+  border-radius: 0px 0px 100% 0px;
+}
+
+#middle{
+  background-color:#999;
+  width:50%;
+  height:50%;
+  border-radius: 50%;
+  border: 10px solid #333;
+}
+
+h1{
+  text-align:center;
+}
+
+#mbuttons{
+  width:100%;
+  height:40px;
+  margin-top:30px;
+  margin-bottom:5px;
+  display:flex;
+  justify-content:space-around;
+}
+
+#details{
+  width:100%;
+  margin-top:0px;
+  margin-bottom:5px;
+  display:flex;
+  text-align:center;
+  justify-content:space-around;
+}
+
+.smbutton{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  border:5px solid #444;
+  box-shadow:3px 3px #666;
+}
+
+#strict{
+  background-color:yellow;
+}
+
+#strict:active,
+#start:active,
+#switch:active{
+  box-shadow:0px 2px #666;
+}
+
+#start{
+  background-color:red;
+}
+
+#switch{
+  background-color:blue;
+}
+
+#counter{
+  width:100px;
+  height:50px;
+  margin:auto;
+  background-color:#222;
+  border: 5px solid #333;
+}
+
+#counter{
+  color:red;
+  text-align:right;
+  font-size:30px;
+  padding:2px 5px;
+  font-family: 'Bungee Hairline', cursive;
+  font-weight:bold;
+}

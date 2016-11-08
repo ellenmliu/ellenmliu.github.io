@@ -1,0 +1,91 @@
+body{
+  background-color:#f2f2f2;
+}
+.calc{
+  background-color: white;
+  width: 500px;
+  height :700px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 5px #888888;
+  position:absolute;
+  margin:auto;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+.bar{
+  background-color:gray;
+  width:75%;
+  height:10%;
+  left:12.5%;
+  position:relative;
+  top:5%;
+  border-radius:10px;
+  padding:20px;
+  text-align:right;
+  font-size:20px;
+}
+.sbutton{
+  background-color:black;
+  width: 80px;
+  height: 80px;
+  color: white;
+  border-radius:25px;
+  box-shadow: 5px 5px 1.5px #888;
+  padding:33px;
+  margin-top:25px;
+}
+.dbutton{
+  background-color:black;
+  height:80px;
+  width:195px;
+  color:white;
+  border-radius:25px;
+  padding-top:33px;
+  padding-left:90px;
+  box-shadow:5px 5px 1.5px #888;  
+}
+.row{
+  margin-top:100px;
+  padding:100px;
+  background-color:red;
+}
+.numbers {
+  margin:150px 150px 100px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#bottom{
+ width:100%;
+  margin-top:25px;
+}
+.operations{
+  position:absolute;
+  top:115px;
+  right:40px;
+  font-size:20px;
+}
+#decimal{
+  position:absolute;
+  top: 535px;
+  right:150px;
+}
+.clear {
+  position:absolute;
+  top:140px;
+  width:100%;
+  display:inline-block;
+}
+#ce{
+  position:absolute;
+  top:-25px;
+  right:150px;
+}
+#ac{
+  background-color:#900;
+  position:absolute;
+  left:50px;
+}
