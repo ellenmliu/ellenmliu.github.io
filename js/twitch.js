@@ -5,11 +5,7 @@ $(document).ready(function() {
 
   for (var index = 0; index < users.length; index++) {
     (function(index) {
-<<<<<<< HEAD
       link ='https://wind-bow.gomix.me/twitch-api/streams/' + users[index] + '?callback=?';
-=======
-      link = 'https://wind-bow.gomix.me/twitch-api/streams/' + users[index] + '?callback=?';
->>>>>>> origin/master
 
       $.ajax({
         url: link,
