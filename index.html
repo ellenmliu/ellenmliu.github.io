@@ -1,121 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-      
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name = "description" content = "Ellen Liu's Portfolio" />
+    <meta name = "author" content = "Ellen Liu">
+    <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta name = "mobile-web-app-capable" content = "yes">
+    <meta charset = "UTF-8">
+    <link rel = 'stylesheet prefetch' href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity = "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin = "anonymous">
+    <link href = "https://fonts.googleapis.com/css?family=Josefin+Sans" rel = "stylesheet">
+    <link rel = "stylesheet" href = "main.css" />
+    <script src = "https://use.fontawesome.com/ab7f5e114e.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
-    <link rel="stylesheet" href="index.css"/>
+    <title>Ellen Macaulay Liu</title>
   </head>
-    
-    
+
   <body>
-      
-    
-      <div class="jumbotron jumbotron-fluid">
-          
-         <nav class="navbar navbar-fixed-top navbar-light" >
-              <h1 class="navbar-brand" id="title">Ellen</h1>
-
-              <ul class="nav navbar-nav float-xs-right text-muted">
-                <li class="nav-item">
-                  <a class="nav-link" id="aboutsection">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="projectsection">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="contactsection">Contact</a>
-                </li>
-              </ul>
-          </nav>
-      
-          <div class="container">
-            <h1 class="display-3" id = "about">About</h1>
-            
-            <p class="lead">  &nbsp Here's a little about me. I moved to Northern California where I currently teach kids at MV Code how to code.
-  I graduated from UC Irvine with a Bachelor's in Computer Science Engineering. My first language is Java and along the way I picked up other languages like C/C++, JavaScript, and HTML and CSS.
-  
-  <br> <br>
-    &nbsp It's been a journey to find out what I want to do. I went through many routes, but as I was teaching kids all the different platforms, I realized I had a passion for web development. I started some online courses, and began to experiment with what I know. Soon enough, I've made a few web applications and became obsessed with improving on the functionality and aesthetics. I can't wait to learn more to become a front-end web developer.</p>
-              
-            <img class = "img-fluid mx-auto d-block" id = "tangled" src = "images/tangled.svg">
-          </div>
-          
-          <div class="container"  id = "projects">
-            <h1 class="display-3">Projects</h1>
-                <div class="text-xs-center" id = "work">
-                    <a href="projects/simon.html"><img class = "img-thumbnail" src = "images/simon.JPG"></a>
-                    <a href="projects/tictactoe.html"><img class = "img-thumbnail" src = "images/tictactoe.JPG"></a>
-                    <a href="projects/pomodoro.html"><img class = "img-thumbnail" src = "images/pomodoro.JPG"></a>   
-                    <a href="projects/calc.html"><img class = "img-thumbnail"  src = "images/calc.JPG"></a>
-                    <a href="projects/twitch.html"><img class = "img-thumbnail" src = "images/twitch.JPG"></a>
-                    <a href="projects/wiki.html"><img class = "img-thumbnail" src = "images/wiki.JPG"></a>
-                    <a href="projects/weather.html"><img class = "img-thumbnail" src = "images/weather.JPG"></a>
-                    <a href="projects/quote.html"><img class = "img-thumbnail" src = "images/quote.JPG"></a>
-              </div>
-              
-            <img class = "img-fluid mx-auto d-block" id = "tangled" src = "images/tangled.svg">
-          </div>
-          
-          <div class="container" id = "contact">
-            <h1 class="display-3">Contact</h1>
-                
-            <form  method = "post" action = "https://www.enformed.io/3je8rsfm">
-
-                <div class = "row form-group">
-                   <label class="col-sm-2 col-form-label">Name</label>
-                   <div class="col-sm-10">
-                    <input id = "name" class="form-control " type = "text" name = "name" placeholder = "Name"/>
-                    </div>
-                </div>
-                
-                <div class = "row form-group">
-                   <label class="col-sm-2 col-form-label">Email</label>
-                   <div class="col-sm-10">
-                    <input id = "email" class="form-control" type = "email" name = "email" placeholder = "Email"/>
-                   </div>
-                </div>
-                
-                <div class = "row form-group">
-                   <label class="col-sm-2 col-form-label">Message</label>
-                    <div class="col-sm-10">
-                   <textarea id = "message" class="form-control" name = "message" placeholder = "Your message here"></textarea>
-                    </div>
-               </div>
-                
-              <div class="form-group row">
-                <div class="offset-sm-6">
-
-                    <input id = "submit" type="submit" name = "submit" value="Submit"/>
-                </div>
-              </div>
-                    <input type="hidden" name="*honeypot" />
-                    <input type="hidden" name="*reply" value="user@enformed.io" />
-                    <input type="hidden" name="*redirect" value="thankyou" />
-            </form>
-               
-          </div>
-        
-          
+    <header>
+      <div class = "left">
+        <img src = "images/logo.svg" class = "logo" alt = "Logo">
       </div>
-      
-      <footer class = "footer"  style="background-color: #fff1e6;">
-          <div class = "container social">
-            <ul class="nav navbar-nav float-xs-right text-muted">
-                <li class = "nav-item"><a class="nav-link" href="https://codepen.io/lnliu/" target="_blank"><i class="fa fa-lg fa-codepen"></i></a></li>
-                <li class = "nav-item"><a class="nav-link" href="https://github.com/ellenmliu" target='_blank'><i class="fa fa-lg fa-github"></i></a></li>
-            </ul>
+
+      <div class = "right">
+        <nav>
+          <ul>
+            <li><a href = "#about">About</a></li>
+            <li><a href = "#projects">Projects</a></li>
+            <li><a href = "#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class = "jumbotron">
+        <section id = "about">
+          <h1>About</h1>
+          <p>I graduated from UC
+             Irvine with a Bachelor's in Computer Science Engineering. I moved to
+             the bay area where I currently teach kids at MV Code how to code. My first
+             language is Java and along the way I picked up other languages like
+            C/C++, JavaScript, and HTML and CSS.</p>
+          <p>It's been a journey to find out what I want to do. I
+            went through many routes, but as I was teaching kids all the
+            different platforms, I realized I had a passion for web development.
+            I started some online courses, and began to experiment with what I
+            know. Soon enough, I've made a few web applications and became
+            obsessed with improving on the functionality and aesthetics.
+            I can't wait to learn more to become a full stack web developer.</p>
+        </section>
+
+        <section id = "projects">
+          <h1>Projects</h1>
+          <div class = "list">
+            <a href = "projects/simon.html"><img class = "img-thumbnail" src = "images/simon.JPG" alt = "Simon"></a>
+            <a href = "projects/tictactoe.html"><img class = "img-thumbnail" src = "images/tictactoe.JPG" alt = "TicTacToe"></a>
+            <a href = "projects/pomodoro.html"><img class = "img-thumbnail" src = "images/pomodoro.JPG" alt = "Pomodoro"></a>
+            <a href = "projects/calc.html"><img class = "img-thumbnail"  src = "images/calc.JPG" alt = "Calculator"></a>
+            <a href = "projects/twitch.html"><img class = "img-thumbnail" src = "images/twitch.JPG" alt = "Twitch Streams"></a>
+            <a href = "projects/wiki.html"><img class = "img-thumbnail" src = "images/wiki.JPG" alt = "Wiki"></a>
+            <a href = "projects/weather.html"><img class = "img-thumbnail" src = "images/weather.JPG" alt = "Weather App"></a>
+            <a href = "projects/quote.html"><img class = "img-thumbnail" src = "images/quote.JPG" alt = "Random Quote Generator"></a>
+          </div>
+        </section>
+
+        <section id = "contact">
+          <h1>Contact</h1>
+          <form  method = "post" action = "https://www.enformed.io/3je8rsfm">
+            <div class = "row form-group">
+              <label class = "col-sm-2 col-form-label">Name</label>
+              <div class = "col-sm-10">
+                  <input id = "name" class="form-control " type = "text" name = "name" placeholder = "Name"/>
+              </div>
+            </div>
+
+            <div class = "row form-group">
+              <label class = "col-sm-2 col-form-label">Email</label>
+                <div class = "col-sm-10">
+                  <input id = "email" class="form-control" type = "email" name = "email" placeholder = "Email"/>
+                </div>
+            </div>
+
+            <div class = "row form-group">
+              <label class = "col-sm-2 col-form-label">Message</label>
+                <div class = "col-sm-10">
+                  <textarea id = "message" class = "form-control" name = "message" placeholder = "Your message here"></textarea>
+                </div>
+            </div>
+
+            <div class = "form-group row">
+              <div class = "sub">
+                <input id = "submit" type = "submit" name = "submit" value = "Submit"/>
+              </div>
+            </div>
+
+            <input type = "hidden" name = "*honeypot" />
+            <input type = "hidden" name = "*reply" value = "user@enformed.io" />
+            <input type = "hidden" name = "*redirect" value = "thankyou" />
+          </form>
+        </section>
+
+      </div>
+    </main>
+
+    <footer>
+      <div class = "center">
+        <h3>Contact</h3>
+        <p>ellen.m.liu@gmail.com</p>
+
+        <h3>Social Media</h3>
+        <div class = "social">
+          <a class = "nav-link" href = "https://github.com/ellenmliu" target = "_blank"><i class = "fa fa-github fa-lg" aria-hidden = "true"></i></a>
+          <a class = "nav-link" href = "https://codepen.io/lnliu/" target = "_blank"><i class = "fa fa-codepen fa-lg" aria-hidden = "true"></i></a>
+          <a class = "nav-link" href = "https://freecodecamp.com/ellenmliu" target = '_blank'><i class = "fa fa-free-code-camp fa-lg" aria-hidden = "true"></i></a>
         </div>
-      </footer>
-      
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-    <script src="/../js/index.js"></script>
+      </div>
+    </footer>
   </body>
 </html>

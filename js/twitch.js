@@ -5,7 +5,7 @@ $(document).ready(function() {
 
   for (var index = 0; index < users.length; index++) {
     (function(index) {
-      link = 'https://api.twitch.tv/kraken/streams/' + users[index] //+ '?callback=?'
+      link ='https://wind-bow.gomix.me/twitch-api/streams/' + users[index] + '?callback=?';
 
       $.ajax({
         url: link,
